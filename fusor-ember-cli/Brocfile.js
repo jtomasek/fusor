@@ -20,6 +20,10 @@ var app = new EmberApp({
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import('bower_components/react/react.js');
 app.import('bower_components/matchmedia/matchMedia.js');
+app.import('bower_components/ember-react/ember-react.global.js');
+app.import('bower_components/tripleo-ui/tripleo-ui.sass');
+app.import('bower_components/tripleo-ui/tripleo-ui.js');
 
 module.exports = app.toTree();
